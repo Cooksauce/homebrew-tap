@@ -21,6 +21,6 @@ cask "rclone-cask" do
   homepage "https://rclone.org/"
   appcast "https://github.com/rclone/rclone/releases.atom"
 
-  depends_on cask: "macfuse"
+  #depends_on cask: "macfuse"
   conflicts_with formula: "rclone"
 end
